@@ -8,6 +8,9 @@ class Song
   @@count == 0
   @@artists = []
   end
+  
+  count += 1
+  
 end
 
 Song.artists = ["Jay-Z", "Drake", "Beyonce"]
